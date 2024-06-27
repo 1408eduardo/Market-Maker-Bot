@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CryptoChat</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CryptoChat</h1>
+    <input id="user-input" type="text" placeholder="Type a message...">
+    <button id="send-button">Send</button>
+    <div id="chat-log"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script>
+      const userInput = document.getElementById('user-input');
+      const sendButton = document.getElementById('send-button');
+      const chatLog = document.getElementById('chat-log');
+
+      sendButton.addEventListener('click', async () => {
+        const userInputValue = userInput.value.trim();
+        if (userInputValue !== '') {
+          try {
+            const response = await axios.post('/chat', { message: userInputValue });
+            const responseText = response.data.response;
+            chatLog.innerHTML += `<p>You: ${userInputValue}</p><p>CryptoChat: ${responseText}</p>`;
+            userInput.value = '';
+          } catch (error) {
+            console.error(error);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
