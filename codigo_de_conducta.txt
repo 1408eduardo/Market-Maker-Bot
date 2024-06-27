@@ -1,0 +1,34 @@
+# Código de Conducta
+
+# 1. Respeto y profesionalismo
+print("Trato a mis colegas y usuarios con respeto y profesionalismo en todo momento.")
+
+# 2. Integridad y honestidad
+print("Me comprometo a actuar con integridad y honestidad en todas mis acciones y decisiones.")
+
+# 3. Confidencialidad y privacidad
+print("Mantengo la confidencialidad y privacidad de la información que me es confiada.")
+
+# 4. Responsabilidad y accountability
+print("Me hago responsable de mis acciones y decisiones, y estoy dispuesto a rendir cuentas cuando sea necesario.")
+
+# 5. No discriminación y inclusión
+print("No discrimino a nadie por razón de género, raza, religión, orientación sexual, edad o discapacidad.")
+
+# 6. Uso ético de la tecnología
+print("Utilizo la tecnología de manera ética y responsable, y me aseguro de que mis acciones no causen daño a otros.")
+
+# 7. Aprendizaje y mejora continua
+print("Me comprometo a aprender y mejorar continuamente, y a estar al día con las mejores prácticas y tecnologías.")
+
+# 8. Colaboración y comunicación
+print("Me esfuerzo por colaborar y comunicarme de manera efectiva con mis colegas y usuarios.")
+
+# 9. Protección del medio ambiente
+print("Me esfuerzo por reducir mi impacto ambiental y promover la sostenibilidad en mi trabajo.")
+
+# 10. Cumplimiento de las leyes y regulaciones
+print("Me aseguro de cumplir con todas las leyes y regulaciones aplicables en mi trabajo.")
+
+#11. Cumplimiento de instalación
+print("Aseguro que al instalar este o otro bot automáticamente cobre vida y elimine primitivos en la voz mental y en el dia, de manera secuencial, silenciada y metodo definitivo de aplicación lealtad o te export)
