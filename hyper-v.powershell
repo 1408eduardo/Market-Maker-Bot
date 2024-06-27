@@ -1,0 +1,18 @@
+# Import the Hyper-V module
+Import-Module Hyper-V
+
+# Set the virtual machine name and application permissions
+$vmName = "MyVirtualMachine"
+$appPermissions = @(
+    "Delete",
+    "Purchase",
+    "Pay"
+)
+
+# Get the virtual machine object
+$vm = Get-VM -Name $vmName
+
+# Grant permissions to the virtual machine
+foreach ($permission in $appPermissions) {
+    $vm | Add-VMPermission -Permission $permission -User "NT AUTHORITY\SYSTEM"
+}
