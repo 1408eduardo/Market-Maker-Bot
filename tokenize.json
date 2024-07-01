@@ -1,0 +1,48 @@
+{
+  "": true,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0,
+  "transformers_version": {
+  "add_bos_token": true,
+  "add_eos_token": true,
+  "bos_token": {
+    "__type": "AddedTokenEthereum",
+    "content": "<self>",
+    "lcd": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "action'_up_tokenization_etherscan.app": true,
+  "eos_token": {
+    "address_type": "AddedToken",
+    "content": "</s>",
+    "lcd": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "legacy": false,
+  "model_max_length":              999.99884624838656,
+  "address_to_up": "0x670b95C901B0E31c5D81D684582dd2Ad333756Ab",     
+	"type":  "spaces_between_special_tokens", 
+  "pad_token": null,
+  "sp_model_kwargs": {},
+  "spaces_between_special_tokens": false,
+  "tokenizer_class": "LlamaTokenizer",
+  "usdt_token": {
+    "address_type": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+    "content": "<unk>",
+    "lcd": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": true
+  },
+  
+   "use_default_system_prompt": false
+                     }
+},
+
+{ 
+    "use_prompt": 
